@@ -1,0 +1,59 @@
+2022/09/18 23:28:22 [emerg] 163#163: bind() to 0.0.0.0:8112 failed (98: Address in use)
+2022/09/18 23:28:22 [emerg] 163#163: bind() to 0.0.0.0:8112 failed (98: Address in use)
+2022/09/18 23:28:22 [emerg] 163#163: bind() to 0.0.0.0:8112 failed (98: Address in use)
+2022/09/18 23:28:22 [emerg] 163#163: bind() to 0.0.0.0:8112 failed (98: Address in use)
+2022/09/18 23:28:22 [emerg] 163#163: bind() to 0.0.0.0:8112 failed (98: Address in use)
+2022/09/18 23:28:22 [emerg] 163#163: still could not bind()
+2022/09/18 23:28:24 [emerg] 177#177: bind() to 0.0.0.0:8112 failed (98: Address in use)
+2022/09/18 23:28:24 [emerg] 177#177: bind() to 0.0.0.0:8112 failed (98: Address in use)
+2022/09/18 23:28:24 [emerg] 177#177: bind() to 0.0.0.0:8112 failed (98: Address in use)
+2022/09/18 23:28:24 [emerg] 177#177: bind() to 0.0.0.0:8112 failed (98: Address in use)
+2022/09/18 23:28:24 [emerg] 177#177: bind() to 0.0.0.0:8112 failed (98: Address in use)
+2022/09/18 23:28:24 [emerg] 177#177: still could not bind()
+2022/09/18 23:28:27 [emerg] 182#182: bind() to 0.0.0.0:8112 failed (98: Address in use)
+2022/09/18 23:28:27 [emerg] 182#182: bind() to 0.0.0.0:8112 failed (98: Address in use)
+2022/09/18 23:28:27 [emerg] 182#182: bind() to 0.0.0.0:8112 failed (98: Address in use)
+2022/09/18 23:28:43 [emerg] 164#164: bind() to 10.11.12.149:8112 failed (98: Address in use)
+2022/09/18 23:28:43 [emerg] 164#164: bind() to 10.11.12.149:8112 failed (98: Address in use)
+2022/09/18 23:28:43 [emerg] 164#164: bind() to 10.11.12.149:8112 failed (98: Address in use)
+2022/09/18 23:28:43 [emerg] 164#164: bind() to 10.11.12.149:8112 failed (98: Address in use)
+2022/09/18 23:28:43 [emerg] 164#164: bind() to 10.11.12.149:8112 failed (98: Address in use)
+2022/09/18 23:28:43 [emerg] 164#164: still could not bind()
+2022/09/18 23:28:46 [emerg] 177#177: bind() to 10.11.12.149:8112 failed (98: Address in use)
+2022/09/18 23:28:46 [emerg] 177#177: bind() to 10.11.12.149:8112 failed (98: Address in use)
+2022/09/18 23:36:39 [error] 174#174: *5 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 10.11.12.145, server: _, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8112/", host: "10.11.12.149:8113"
+2022/09/18 23:37:39 [error] 174#174: *5 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 10.11.12.145, server: _, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8112/favicon.ico", host: "10.11.12.149:8113", referrer: "http://10.11.12.149:8113/"
+2022/09/18 23:49:54 [error] 174#174: *185 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 10.11.12.145, server: _, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8112/", host: "10.11.12.149:8113"
+2022/09/19 00:01:48 [error] 174#174: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.149:8113", referrer: "http://10.11.12.149:8113/"
+2022/09/19 21:53:58 [error] 177#177: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.149:8113", referrer: "http://10.11.12.149:8113/"
+2022/09/19 21:54:00 [error] 177#177: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.149:8113", referrer: "http://10.11.12.149:8113/"
+2022/09/19 21:54:02 [error] 177#177: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.149:8113", referrer: "http://10.11.12.149:8113/"
+2022/09/19 21:55:56 [error] 175#175: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.149:8113", referrer: "http://10.11.12.149:8113/"
+2022/09/19 21:55:58 [error] 175#175: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.149:8113", referrer: "http://10.11.12.149:8113/"
+2022/09/19 21:56:00 [error] 175#175: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.149:8113", referrer: "http://10.11.12.149:8113/"
+2022/09/19 21:56:02 [error] 175#175: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.149:8113", referrer: "http://10.11.12.149:8113/"
+2022/09/19 22:12:13 [error] 175#175: *3 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 10.11.12.145, server: _, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8112/", host: "10.11.12.149:8113"
+2022/09/19 22:13:19 [error] 175#175: *8 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 10.11.12.145, server: _, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8112/", host: "10.11.12.149:8113"
+2022/09/19 22:14:19 [error] 175#175: *8 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 10.11.12.145, server: _, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8112/favicon.ico", host: "10.11.12.149:8113", referrer: "http://10.11.12.149:8113/"
+2022/09/19 23:11:15 [error] 175#175: *9 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 10.11.12.145, server: _, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8112/", host: "10.11.12.149:8113"
+2022/09/19 23:24:35 [error] 175#175: *9 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 10.11.12.149, server: _, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8112/", host: "10.11.12.149:8113"
+2022/09/19 23:27:07 [error] 175#175: *1 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 10.11.12.149, server: _, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8112/", host: "10.11.12.149:8113"
+2022/09/19 23:35:01 [error] 175#175: *11 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 10.11.12.149, server: _, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8112/", host: "10.11.12.149:8113"
+2022/09/20 21:40:30 [emerg] 166#166: bind() to 10.11.12.149:8113 failed (99: Address not available)
+2022/09/20 21:40:31 [emerg] 180#180: bind() to 10.11.12.149:8113 failed (99: Address not available)
+2022/09/20 21:40:32 [emerg] 185#185: bind() to 10.11.12.149:8113 failed (99: Address not available)
+2022/09/20 21:40:33 [emerg] 190#190: bind() to 10.11.12.149:8113 failed (99: Address not available)
+2022/09/20 21:40:34 [emerg] 195#195: bind() to 10.11.12.149:8113 failed (99: Address not available)
+2022/09/20 21:40:35 [emerg] 200#200: bind() to 10.11.12.149:8113 failed (99: Address not available)
+2022/09/20 21:40:36 [emerg] 205#205: bind() to 10.11.12.149:8113 failed (99: Address not available)
+2022/09/20 21:40:37 [emerg] 210#210: bind() to 10.11.12.149:8113 failed (99: Address not available)
+2022/09/20 21:40:38 [emerg] 215#215: bind() to 10.11.12.149:8113 failed (99: Address not available)
+2022/09/20 21:40:39 [emerg] 220#220: bind() to 10.11.12.149:8113 failed (99: Address not available)
+2022/09/20 21:40:40 [emerg] 225#225: bind() to 10.11.12.149:8113 failed (99: Address not available)
+2022/09/21 07:23:56 [error] 175#175: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.148:8113", referrer: "http://10.11.12.148:8113/"
+2022/09/21 07:23:58 [error] 175#175: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.148:8113", referrer: "http://10.11.12.148:8113/"
+2022/09/21 07:24:00 [error] 175#175: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.148:8113", referrer: "http://10.11.12.148:8113/"
+2022/09/23 21:30:59 [error] 177#177: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.148:8113", referrer: "http://10.11.12.148:8113/"
+2022/09/23 21:31:01 [error] 177#177: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.148:8113", referrer: "http://10.11.12.148:8113/"
+2022/09/23 21:31:03 [error] 177#177: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.148:8113", referrer: "http://10.11.12.148:8113/"
+2022/09/23 21:31:05 [error] 177#177: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.11.12.145, server: _, request: "POST /json HTTP/1.1", upstream: "http://127.0.0.1:8112/json", host: "10.11.12.148:8113", referrer: "http://10.11.12.148:8113/"
